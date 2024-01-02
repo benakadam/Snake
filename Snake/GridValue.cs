@@ -1,10 +1,9 @@
-﻿namespace Snake
+﻿namespace Snake;
+
+public enum GridValue
 {
-    public enum GridValue
-    {
-        Empty,
-        Snake,
-        Food,
-        Outside
-    }
+    Empty,
+    Snake,
+    Food,
+    Outside
 }
